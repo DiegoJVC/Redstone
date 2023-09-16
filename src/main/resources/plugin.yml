@@ -1,0 +1,13 @@
+name: ${project.name}
+version: ${project.version}
+author: CobelPvP Development Team
+depend: [Atheneum]
+main: com.cobelpvp.redstone.RedstonePlugin
+
+commands:
+  rsenviroment:
+    description: Check the current redstone enviroment
+    aliases: [rsenv]
+  rsservers:
+    description: Check the redstone servers
+    aliases: [rsserver]
